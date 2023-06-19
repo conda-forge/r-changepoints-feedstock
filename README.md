@@ -1,11 +1,51 @@
+About r-changepoints-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-changepoints-feedstock/blob/main/LICENSE.txt)
+
 About r-changepoints
-====================
+--------------------
 
 Home: https://github.com/HaotianXu/changepoints
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-changepoints-feedstock/blob/main/LICENSE.txt)
+Summary: An R Package for Change Point Localisation
+
+Performs a series of offline and/or online change-point localisation algorithms for
+
+univariate mean
+    Wang, Yu and Rinaldo (2020)
+    Yu, Padilla, Wang and Rinaldo (2020)
+univariate polynomials
+    Yu, Chatterjee and Xu (2021)
+univariate and multivariate nonparametric settings
+    Padilla, Yu, Wang and Rinaldo (2021)
+    Padilla, Yu, Wang and Rinaldo (2021)
+high-dimensional covariances
+    Wang, Yu and Rinaldo (2021)
+high-dimensional networks with and without missing values
+    Wang, Yu and Rinaldo (2021)
+    Yu, Padilla, Wang and Rinaldo (2021)
+    Dubey, Xu and Yu (2021)
+high-dimensional linear regression models
+    Rinaldo, Wang, Wen, Willett and Yu (2021)
+    Xu, Wang, Zhao, and Yu (2022)
+high-dimensional vector autoregressive models
+    Wang, Yu, Rinaldo and Willett (2019)
+high-dimensional self exciting point processes
+    Wang, Yu and Willett (2020)
+dependent dynamic nonparametric random dot product graphs
+    Padilla, Yu and Priebe (2019)
+robust univariate mean against adversarial attacks
+    Li and Yu (2021)
+
+About r-changepoints
+--------------------
+
+Home: https://github.com/HaotianXu/changepoints
+
+Package license: GPL-3.0-or-later
 
 Summary: An R Package for Change Point Localisation
 
@@ -56,13 +96,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18484&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-changepoints-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18484&branchName=main">
@@ -70,10 +103,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18484&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-changepoints-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-changepoints-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -81,6 +114,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18484&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-changepoints-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18484&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-changepoints-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
